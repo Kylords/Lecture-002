@@ -26,7 +26,7 @@ function calculateNumericOutput()
     totalNameValue += student.name.charCodeAt(i);
   }
 
-  // Inser result into page
-  var ouput = "Total Numeric value of person's name is " + totalNameValue;
+  // Insert result into page
+  var output = "Total Numeric value of person's name is " + totalNameValue;
   document.getElementById('output').innerText = output;
 }
